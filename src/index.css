@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+    section {
+        @apply items-center px-12 mt-16 bg-white lg:justify-center;
+    }
+
+    .title {
+        @apply my-3 my-5 text-3xl font-bold lg:text-4xl;
+    }
+    .paragraph {
+        @apply my-3 text-lg font-light lg:text-xl;
+    }
+}
